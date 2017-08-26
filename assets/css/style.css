@@ -86,16 +86,5 @@ p {
 #third {
   width: 100%;
 }
-@media only screen and (max-width: 933px) {
-  #buttons {
-  padding:0 0 0 15px;
 
-}
-  }
-
-@media only screen and (max-width: 480px) {
-  #buttons {
-
-  padding:0 0 0 25px;
-}
-  }
+  
