@@ -60,6 +60,7 @@ p {
 #second {
   background-color:#FDF3E7;
   height:200px;"
+  width: 100% !important;
 }
 #my-word {
   margin: 0;
@@ -79,7 +80,11 @@ p {
   font-size:1.6em;
 }
 #button-center {
+  width: 100%;
   text-align: center;
+}
+#third {
+  width: 100%;
 }
 @media only screen and (max-width: 933px) {
   #buttons {
