@@ -19,13 +19,19 @@
     <p id="clickletter">Click the alphabet below to guess the word</p>
     <p id="hintletter">Name of Country</p>
 <br>
-<div id="button-center">
-  <div id = "buttons"></div>
-  <br><br><br>
+<div class="container" id="button-center">
+  <div class="row">
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-8">
+     <div id = "buttons"></div>
+       <br><br><br>
   <div id="hold"></div>
   <div id="seba"></div><br>
   <div id = "wrong">Wrong Letters: </div>
  </div>
+</div>
+</div>
 </div>
   <!-- Here we have div called "random-number" where our random number will go -->
 <div class="container" id="second">
@@ -33,10 +39,10 @@
  <div class = "hint-reset">
   <button id = "reset">Play Again</button>
  </div>
-<div class="container"> <!-- just for looking good -->
+ </div>
+<div class="container" id="third"> <!-- just for looking good -->
 </div>
-</div>
+
 </body>
 </html>
-
 <script src="assets/javascript/game.js"></script>
