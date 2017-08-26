@@ -1,5 +1,6 @@
 .container {
   width: 100% !important;
+  font-family: 'slim-joe';
 }
 h3 {
   font-family: 'slim-joe';
@@ -37,6 +38,29 @@ p {
 .letter-button-color {
   color: darkcyan;
 }
+#clickletter {
+  text-align: center;
+  font-size: 20px;
+}
+#hintletter {
+  text-align: center;
+}
+#hold {
+  text-align: center;
+}
+#wrong {
+  text-align: center;
+  font-size: 20px;
+  color: #FDF3E7;
+}
+#first {
+  background-color: #C63D0F;
+  height:468px;
+}
+#second {
+  background-color:#FDF3E7;
+  height:200px;"
+}
 #my-word {
   margin: 0;
   display: block;
@@ -53,6 +77,9 @@ p {
   display: inline-block;
   padding: 0 10px;
   font-size:1.6em;
+}
+#button-center {
+  text-align: center;
 }
 @media only screen and (max-width: 933px) {
   #buttons {
