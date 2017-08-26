@@ -12,32 +12,31 @@
 </head>
 
 <body>
-  <div class="container" style="background-color: #C63D0F; height:468px;">
+<div class="container" id="first">
   <div class="header">
     <h3 class="text-center">Let`s Play Hangmen Game</h3>
    </div>
-    <p style="text-align: center;">Type the alphabet below to guess the word, or click the hint</p>
-<br><br>
+    <p id="clickletter">Click the alphabet below to guess the word</p>
+    <p id="hintletter">Name of Country</p>
+<br>
+<div id="button-center">
   <div id = "buttons"></div>
   <br><br><br>
-  <div id="hold" style="text-align: center;"></div>
+  <div id="hold"></div>
   <div id="seba"></div><br>
-  <div id = "wrong" style="text-align: center;">Wrong Letters: </div>
+  <div id = "wrong">Wrong Letters: </div>
+ </div>
 </div>
   <!-- Here we have div called "random-number" where our random number will go -->
-<div class="container" style="background-color:#FDF3E7; height:200px;" >
+<div class="container" id="second">
   <p id = "mylives"></p>
-<div class = "hint-reset">
- <button id = "reset">Play Again</button>
+ <div class = "hint-reset">
+  <button id = "reset">Play Again</button>
  </div>
 <div class="container"> <!-- just for looking good -->
 </div>
 </div>
 </body>
-
 </html>
-
-
-
 
 <script src="assets/javascript/game.js"></script>
